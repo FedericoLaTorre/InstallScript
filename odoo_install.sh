@@ -84,8 +84,8 @@ echo -e "\n---- Installing nodeJS NPM and rtlcss for LTR support ----"
 sudo apt install nodejs npm -y
 sudo npm install -g rtlcss
 
-echo -e "\n---- Install m2crypto
-sudo apt install python-m2crypto
+echo -e "\n---- Install m2crypto ----"
+sudo apt install python-m2crypto -y
 
 #--------------------------------------------------
 # Install Wkhtmltopdf if needed
